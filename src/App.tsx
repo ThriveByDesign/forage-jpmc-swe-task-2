@@ -49,10 +49,6 @@ class App extends Component<{}, IState> {
         data: serverResponds,
         showGraph: true,
     });
-    // to catch potential errors
-  } else {
-    console.error("No data received from the server.");
-  }
   });
   x++;
   if (x < 1000) {
